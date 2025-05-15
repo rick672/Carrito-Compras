@@ -8,14 +8,11 @@ import CardContent from './CardContent.vue';
 <template>
     <div>
         <Teleport to="body">
-            <div class="fixed inset-0 bg-black/50 flex justify-center items-center ">
-                <div class="">
+            <div class="fixed inset-0 z-[9999] bg-black/80 flex justify-center items-center">
+                <div class="max-h-screen overflow-y-auto py-4">
                     <slot>
                         <CardContent />
                     </slot>
-                    <!-- <button @click="closeModal">
-                        Cerrar
-                    </button> -->
                 </div>
             </div>
         </Teleport>

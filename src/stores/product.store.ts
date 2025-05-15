@@ -53,10 +53,22 @@ export const useProductStore = defineStore('product', () => {
             },
             {
                 id: 6,
-                img: 'https://www.tiendaamiga.com.bo/media/catalog/product/cache/23bac777b9d0ccb47a596f9b5dbdcdda/r/e/reloj_fossil_dama_an_logo_1.jpg',
-                name: 'Reloj Dama1',
+                img: 'https://s.alicdn.com/@sc04/kf/H502f8dcd9b3f4d8f8776be4dd21646b2h.png?avif=close',
+                name: 'Reloj ',
                 price: 1459,
             },
+            {
+                id: 7,
+                img: 'https://s.alicdn.com/@sc04/kf/H8c02570c4b90454395acbfc343dd9e00H.jpg_720x720q50.jpg',
+                name: 'Reloj ',
+                price: 1459,
+            },
+            {
+                id: 8,
+                img: 'https://s.alicdn.com/@sc04/kf/H1027af6ef8ea41e3a055447a1344c224d.jpg_720x720q50.jpg',
+                name: 'Reloj ',
+                price: 1459,
+            }
         ],
         selectedProduct: [],
         quantity: () => products.selectedProduct.length > 0 
