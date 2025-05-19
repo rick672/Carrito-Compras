@@ -1,33 +1,52 @@
-# 010_piniaStore
+# 🛒 Carrito de Compras de Relojes — Vue 3 + Firebase
 
-This template should help get you started developing with Vue 3 in Vite.
+Un **carrito de compras sencillo y elegante** para relojes, desarrollado con Vue 3, Vite y Firebase. Ideal como base para proyectos de e-commerce ligeros.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 📸 Vista Previa
 
-## Type Support for `.vue` Imports in TS
+### 🏠 Página de Inicio — "Bienvenidos a la Elegancia"
+![Inicio](./public/screenLoginRejoj1.png)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### 🕰️ Catálogo de Relojes
+![Productos](./public/screenLoginRejoj2.png)
 
-## Customize configuration
+### 🛍️ Carrito de Compras
+![Carrito](./public/screenLoginRejoj3.png)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## 🚀 Demo en Vivo
 
-```sh
+🔗 [Haz clic aquí para ver el proyecto desplegado en Vercel](https://carrito-compras-eight.vercel.app)
+
+---
+
+## ⚙️ Tecnologías Utilizadas
+
+- ✅ Vue 3
+- ⚡ Vite
+- 🛠️ Pinia (Manejo de estado)
+- 🎨 TailwindCSS + DaisyUI
+- 🔥 Firebase (Autenticación y almacenamiento)
+
+---
+
+## 🎯 Funcionalidades Clave
+
+- 🔐 Registro e inicio de sesión con correo electrónico o Google
+- 🖼️ Subida de imágenes de productos con descripción
+- 🛒 Agregar productos al carrito
+- 🧾 Vista del carrito con productos seleccionados
+- 🧩 Arquitectura escalable para agregar pagos o comentarios (futuro)
+
+---
+
+## 💻 Instalación Local
+
+```bash
+git clone https://github.com/TU_USUARIO/011_cloneInstagram.git
+cd 011_cloneInstagram
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
