@@ -1,6 +1,6 @@
-# 🛒 Carrito de Compras de Relojes — Vue 3 + Firebase
+# 🛒 Carrito de Compras de Relojes
 
-Un **carrito de compras sencillo y elegante** para relojes, desarrollado con Vue 3, Vite y Firebase. Ideal como base para proyectos de e-commerce ligeros.
+Un carrito de compras sencillo y elegante enfocado en la venta de relojes, desarrollado con **Vue 3**, **Vite**, **TailwindCSS** y **Pinia**. Ideal como base para proyectos de e-commerce ligeros.
 
 ---
 
@@ -19,7 +19,7 @@ Un **carrito de compras sencillo y elegante** para relojes, desarrollado con Vue
 
 ## 🚀 Demo en Vivo
 
-🔗 [Haz clic aquí para ver el proyecto desplegado en Vercel](https://carrito-compras-eight.vercel.app)
+🔗 [Ver proyecto en Vercel](https://carrito-compras-eight.vercel.app)
 
 ---
 
@@ -29,24 +29,22 @@ Un **carrito de compras sencillo y elegante** para relojes, desarrollado con Vue
 - ⚡ Vite
 - 🛠️ Pinia (Manejo de estado)
 - 🎨 TailwindCSS + DaisyUI
-- 🔥 Firebase (Autenticación y almacenamiento)
 
 ---
 
-## 🎯 Funcionalidades Clave
+## 🎯 Funcionalidades
 
-- 🔐 Registro e inicio de sesión con correo electrónico o Google
-- 🖼️ Subida de imágenes de productos con descripción
+- 🧾 Lista de productos disponibles
 - 🛒 Agregar productos al carrito
-- 🧾 Vista del carrito con productos seleccionados
-- 🧩 Arquitectura escalable para agregar pagos o comentarios (futuro)
+- 🗑️ Eliminar productos del carrito
+- 💰 Cálculo de total a pagar
 
 ---
 
-## 💻 Instalación Local
+## 📦 Instalación Local
 
 ```bash
-git clone https://github.com/TU_USUARIO/011_cloneInstagram.git
-cd 011_cloneInstagram
+git clone https://github.com/rick672/Carrito-Compras.git 'Escriba el nombre del proyecto'
+cd 'Nombre del proyecto'
 npm install
 npm run dev
